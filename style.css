@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(233, 139, 139);
+    text-align: center;
+}
+.container{
+    position: absolute;                                 /*center*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
+
+    height: auto;
+    width: 50%;
+
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+}
+.square{
+    color: rgb(255, 255, 255, 0);
+    text-align: center;
+    background-color: white;
+}
